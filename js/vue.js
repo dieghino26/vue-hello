@@ -6,7 +6,8 @@ const {createApp} = Vue;
 const app = createApp({
     data(){
         return{
-            greetings: "hello"
+            greetings: "hello",
+            img: "img/htmlimg.jpg" 
         }
     }
 });
